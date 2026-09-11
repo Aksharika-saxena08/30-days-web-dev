@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name ="viewport" content = "width=device-width, intial-scale=0.1">
+        <title>MY 2ND BIO PAGE</title>
+    </head>
+<body>
+    <header>
+        <h1>AKSHARIKA SAXENA</h1>
+        <h2>FRONTEND DEVELOPER IN TRAINING</h2>
+        <h3>KNOW ME MORE</h3>
+        <p>I AM A FIRST YEAR B-TECH STUDENT LEARNING HTML AND I AM COMMITED TO FINISHING IT AT THE FASTEST POSSIBLE PACE,
+        BUT LEAVING NOTHING UNLEARNED</p>
+    </header>
+
+    <main>
+    <h3>SKILLS I'M LEARNING</h3>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+    <h3>MY LEARNING ORDER</h3>
+    <ol>
+        <li>HTML FOUNDATIONS</li>
+        <li>CSS STYLING</li>
+        <li>JavaScript LOGIC</li>
+    </ol>
+    </main>
+
+    <nav>
+    <a href="https://github.com/Aksharika-saxena08" target= "_blank">MY GITHUB</a>
+    </nav>
+
+    <img src="myhtml.jpg" alt="photo of [Aksharika and mumma]" width="200">
+
+    <footer>
+        <p>&copy; 2026 AKSHARIKA. Built during 2nd day of 30 days of web development sprint.</p>
+    </footer>
