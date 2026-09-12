@@ -1,0 +1,89 @@
+#feedback form 
+<!DOCTYPE html>
+<header>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=0.1">
+        <title>FEEDBACK FORM</title>
+    </head>
+
+    <header>
+        <h1>We value your feedback</h1>
+        <p>Tell us about your experience-we value your prefrences.</p>
+    </header>
+
+    <main>
+        <section id="feedback-form">
+          <h2>Submit feedback</h2>
+
+          <form action="#" method="post">
+            <label for="name">Full name</label>
+            <input type="text" id="name" name="name" name placeholder="enter your full name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="your email id" required>
+
+            <label for="Topic">what is this feedback about?</label>
+            <select id="Topic" name="Topic" required>
+                <option value="">--SELECT A TOPIC--</option>
+                <option value="Website">Website experience</option>
+                <option value="Product">product quality</option>
+                <option value="support">Customer support</option>
+                <option value="others">other</option>
+            </select>
+
+            <fieldset>
+                <legend>HOW WOULD YOU RATE YOUR EXPERIENCE?</legend>
+
+                <input type="radio" id="rating excellent" name="rating" value="excellent">
+                <label for="rating excellent">Excellent</label>
+
+                <input type="radio" id="rating good" name="rating" value="good">
+                <label for="rating good">good</label>
+
+                <input type="radio" id="rating average" name="rating" value="average">
+                <label for="rating average">Average</label>
+            </fieldset>
+
+            <label for="message">Additional comments</label>
+            <textarea id="message" name="message" rows="5" placeholder="write your feedback.."></textarea>
+
+            <input type="checkbox" id="follow up" name="follow up">
+            <label for="follow up">I'd like someone to follow up with me</label>
+
+            <br><br>
+            <button type="submit">submit feedback</button>
+
+            </form>
+            </section>
+
+            <section id="past feedback">
+                <h2>Recent feedbacks</h2>
+                <table> 
+                    <thead>
+                    <tr>
+                        <th>NAME</th>
+                        <th>TOPIC</th>
+                        <th>RATING</th>
+                    </tr>
+                </thead>
+
+                <tbody> 
+                    <tr>
+                        <td>Aksharika Saxena</td>
+                        <td>Website experience</td>
+                        <td>Excellent</td>
+                    </tr>
+                    <tr>
+                        <td>Vishal saxena</td>
+                        <td>customer support</td>
+                        <td>good</td>
+                    </tr>
+                </tbody>
+            </table>
+            </section>
+    </main>
+</body>
+</html>
+
