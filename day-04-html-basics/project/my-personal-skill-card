@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=0.1">
+        <title>AKSHARIKS'S SKILL CARD</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <h1 id="AKSHARIKA'S SKILLS TRACKING PAGE">AKSHARIKA'S SKILLS TRACKING PAGE</h1>
+            <P>let me introduce a personal skill card to track aksharika's growth!!</P>
+
+            <h1 id="name">AKSHARIKA SAXENA</h1>
+            <p>FRONTEND DEVELOPER IN TRAINING</p>
+        </header>
+
+        <img>
+            <img src="akshu.jpg" alt="success awaits her">
+        </img>
+
+        <main>
+            <section id="technical skills">
+                <h2>HOW WELL DOES SHE UNDERSTANDS TECH?</h2>
+                <div class="card">
+                    <h3>HTML</h3>
+                    <p>Structuring pages with heading, semantic tags and understanding tables and form.</p>
+                </div>
+                <div class="card">
+                    <h3>css</h3>
+                    <p>styling layouts with boxmodel, flexbox and colors</p>
+                </div>
+                <div class="card">
+                    <h3>python</h3>
+                    <p>Can write codes in python</p>
+                </div>
+                <div class="future-card">
+                    <h3>JavaScript</h3>
+                    <p>coming up next week!!</p>
+                </div>
+            </section>
+
+            <section id="exracurricular skills">
+                <h2>HOW WELL CAN SHE COORDINATE WITH LIFE?</h2>
+                <div class="card">
+                    <h3>Speaking skills</h3>
+                    <p>extraordinary speaking and presentation skills</p>
+                </div>
+                <div class="card">
+                    <h4>Confidence</h4>
+                    <p>Her confidence beholds her firmly through every life obstacle</p>
+                </div>
+            </section>
+
+            <section id="contact">
+                <h2>GET IN TOUCH</h2>
+                <button id="contact-btn">Say hello,get connected!</button>
+            </section>
+        </main>
+
+        <nav>
+            <a href=" "aksharikasaxena79@gmail.com">Email me</a><br>
+            <a href= "https://github.com/Aksharika-saxena08" target="_blank">My GITHUB</a>
+        </nav>
+
+        <footer>
+            <p>&copy; 2026 Aksharika Saxena. DAY 4 OF #30DAYFRONTEND.</p>
+        </footer>
+
+    </body>
+</html>
