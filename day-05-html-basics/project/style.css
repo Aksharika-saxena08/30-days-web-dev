@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color:black;
+    background-color:beige
+}
+
+header {
+    color:midnightblue;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+img {
+    width: 500px
+}
+
+main {
+    max-width:900px;
+    margin:0 auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    color:slateblue;
+}
+
+.card {
+    color: #1a232e;
+}
+
+button {
+    padding: 20px 28px;
+    background-color: #1a232e;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 15px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
